@@ -1,28 +1,26 @@
 import { useMemo } from "react";
 import { gql, QueryHookOptions, useQuery } from "@apollo/client";
 
-interface GetAllPostsQueryOptions {}
+interface GetFeedQueryOptions {}
 
-export const ME_QUERY = gql`
+export const GET_FEED_QUERY = gql`
   query GetAllPosts {
-    me {
+    getAllPosts {
       id
-      username
-      email
     }
   }
 `;
 
-export function useGetPostsQuery(
-  queryOptions?: GetAllPostsQueryOptions & QueryHookOptions
+export function useGetFeedQuery(
+  queryOptions?: GetFeedQueryOptions & QueryHookOptions
 ) {
-  const { data, loading, error } = useQuery(ME_QUERY, queryOptions);
+  const { data, loading, error } = useQuery(GET_FEED_QUERY, queryOptions);
 
-  const me = useMemo(() => {
+  const feed = useMemo(() => {
     if (data) {
-      return data.me;
+      return data.getFeed;
     }
   }, [data]);
 
-  return { me, loading, error };
+  return { feed, loading, error };
 }

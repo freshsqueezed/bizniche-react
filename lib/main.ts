@@ -1,2 +1,3 @@
 export { BiznicheProvider } from "./provider";
-export { useGetPostsQuery } from "./hooks/useGetPostsQuery";
+export { useGetFeedQuery } from "./hooks/useGetPostsQuery";
+export { useGetApiViewerQuery } from "./hooks/useGetApiViewerQuery";
