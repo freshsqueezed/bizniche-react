@@ -5,7 +5,7 @@ interface GetApiViewerQueryOptions {}
 
 export const API_VIEWER_QUERY = gql`
   query GetApiViewer {
-    me {
+    apiViewer {
       id
       username
       email
