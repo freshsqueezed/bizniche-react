@@ -1,4 +1,3 @@
-import { useMemo } from "react";
 import { gql, QueryHookOptions, useQuery } from "@apollo/client";
 
 interface GetApiViewerQueryOptions {}
@@ -19,11 +18,9 @@ export function useGetApiViewerQuery(
 ) {
   const { data, loading, error } = useQuery(API_VIEWER_QUERY, queryOptions);
 
-  const apiViewer = useMemo(() => {
-    if (data) {
-      return data.apiViewer;
-    }
-  }, [data]);
-
-  return { apiViewer, loading, error };
+  return {
+    apiViewer: data?.apiViewer,
+    loading,
+    error,
+  };
 }
