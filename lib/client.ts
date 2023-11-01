@@ -4,6 +4,7 @@ import {
   InMemoryCache,
   NormalizedCacheObject,
 } from "@apollo/client";
+import { CORE_API_URL } from "./config";
 
 export default function configureClient({
   apiKey,
@@ -11,7 +12,7 @@ export default function configureClient({
   apiKey: string;
 }): ApolloClient<NormalizedCacheObject> {
   const link = new HttpLink({
-    uri: "https://api.bizniche.co/graphql",
+    uri: CORE_API_URL,
     headers: {
       "x-bizniche-api-key": apiKey,
     },
