@@ -1,6 +1,12 @@
 {
   "name": "@bizniche/react",
-  "version": "0.0.7",
+  "version": "0.0.8",
+  "author": "Matt Gordon <matt@lemonade.tech>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/freshsqueezed/bizniche-react"
+  },
   "type": "module",
   "main": "dist/react.js",
   "module": "dist/react.js",
