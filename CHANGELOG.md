@@ -1,5 +1,11 @@
 # @bizniche/react
 
+## 0.3.0
+
+### Minor Changes
+
+- [#14](https://github.com/freshsqueezed/bizniche-react/pull/14) [`c41caf8`](https://github.com/freshsqueezed/bizniche-react/commit/c41caf8fc1a8a234a20c16c2e00892356d5c267a) Thanks [@matthew-gordon](https://github.com/matthew-gordon)! - adds new useGetPostQuery hook
+
 ## 0.2.1
 
 ### Patch Changes
