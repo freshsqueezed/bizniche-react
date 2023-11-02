@@ -1,5 +1,11 @@
 # @bizniche/react
 
+## 0.2.1
+
+### Patch Changes
+
+- [#11](https://github.com/freshsqueezed/bizniche-react/pull/11) [`666e494`](https://github.com/freshsqueezed/bizniche-react/commit/666e49475ec424ebf8ad5191044a3805995bad62) Thanks [@matthew-gordon](https://github.com/matthew-gordon)! - Add missing feed query field
+
 ## 0.2.0
 
 ### Minor Changes
