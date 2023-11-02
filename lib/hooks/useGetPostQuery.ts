@@ -15,6 +15,7 @@ const GET_POST_QUERY = gql`
       title
       slug
       description
+      content
       author {
         id
         email
