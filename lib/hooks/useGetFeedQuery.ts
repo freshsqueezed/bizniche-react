@@ -12,6 +12,7 @@ const GET_FEED_QUERY = gql`
       id
       title
       slug
+      content
       description
       author {
         id
