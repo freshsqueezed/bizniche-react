@@ -19,7 +19,6 @@ const GET_POST_QUERY = gql`
         id
         email
         username
-        role
       }
       created_at
       updated_at
