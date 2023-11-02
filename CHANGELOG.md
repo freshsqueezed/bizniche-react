@@ -1,5 +1,11 @@
 # @bizniche/react
 
+## 0.3.2
+
+### Patch Changes
+
+- [#18](https://github.com/freshsqueezed/bizniche-react/pull/18) [`1587570`](https://github.com/freshsqueezed/bizniche-react/commit/1587570a6e2ecf1be875aff563fb51c8849b19ac) Thanks [@matthew-gordon](https://github.com/matthew-gordon)! - fix broken query options
+
 ## 0.3.1
 
 ### Patch Changes
