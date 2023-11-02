@@ -1,6 +1,6 @@
-import { PropsWithChildren } from "react";
-import { ApolloProvider } from "@apollo/client";
-import configureClient from "./client";
+import { PropsWithChildren } from 'react';
+import { ApolloProvider } from '@apollo/client';
+import configureClient from './client';
 
 interface BiznicheProviderProps extends PropsWithChildren {
   apiKey: string;

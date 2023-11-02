@@ -3,8 +3,8 @@ import {
   HttpLink,
   InMemoryCache,
   NormalizedCacheObject,
-} from "@apollo/client";
-import { CORE_API_URL } from "./config";
+} from '@apollo/client';
+import { CORE_API_URL } from './config';
 
 export default function configureClient({
   apiKey,
@@ -14,7 +14,7 @@ export default function configureClient({
   const link = new HttpLink({
     uri: CORE_API_URL,
     headers: {
-      "x-bizniche-api-key": apiKey,
+      'x-bizniche-api-key': apiKey,
     },
   });
 

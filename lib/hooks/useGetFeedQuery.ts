@@ -1,5 +1,5 @@
-import { QueryHookOptions, gql, useQuery } from "@apollo/client";
-import { BiznicheBlogPost } from "../types";
+import { QueryHookOptions, gql, useQuery } from '@apollo/client';
+import { BiznicheBlogPost } from '../types';
 
 interface GetFeedQueryOptions {
   limit: number;
@@ -26,7 +26,7 @@ const GET_FEED_QUERY = gql`
 `;
 
 export function useGetFeedQuery(
-  queryOptions?: GetFeedQueryOptions & QueryHookOptions
+  queryOptions?: GetFeedQueryOptions & QueryHookOptions,
 ) {
   const { data, loading, error } = useQuery(GET_FEED_QUERY, queryOptions);
 

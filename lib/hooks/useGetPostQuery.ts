@@ -1,5 +1,5 @@
-import { QueryHookOptions, gql, useQuery } from "@apollo/client";
-import { BiznicheBlogPost } from "../types";
+import { QueryHookOptions, gql, useQuery } from '@apollo/client';
+import { BiznicheBlogPost } from '../types';
 
 interface GetPostQueryOptions {
   input: {
@@ -28,7 +28,7 @@ const GET_POST_QUERY = gql`
 `;
 
 export function useGetPostQuery(
-  queryOptions?: GetPostQueryOptions & QueryHookOptions
+  queryOptions?: GetPostQueryOptions & QueryHookOptions,
 ) {
   const { data, loading, error } = useQuery(GET_POST_QUERY, queryOptions);
 
