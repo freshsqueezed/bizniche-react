@@ -1,3 +1,3 @@
-export { BiznicheProvider } from "./provider";
-export * from "./hooks/useGetFeedQuery";
-export * from "./types";
+export { BiznicheProvider } from './provider';
+export * from './hooks/useGetFeedQuery';
+export * from './types';
