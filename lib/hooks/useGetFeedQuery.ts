@@ -11,11 +11,12 @@ const GET_FEED_QUERY = gql`
       id
       title
       slug
+      content
       description
       author {
         id
-        email
         username
+        email
       }
       created_at
       updated_at
