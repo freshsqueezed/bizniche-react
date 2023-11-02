@@ -2,18 +2,20 @@ import { QueryHookOptions, gql, useQuery } from '@apollo/client';
 import { BiznicheBlogPost } from '../types';
 
 interface GetFeedQueryOptions {
-  limit: number;
-  offset: number;
+  input: {
+    limit: number;
+    offset: number;
+  };
 }
 
 const GET_FEED_QUERY = gql`
-  query GetFeedQuery {
-    getFeedQuery {
+  query GetFeedQuery($input: GetFeedQueryInput) {
+    getFeedQuery(input: $input) {
       id
       title
       slug
-      content
       description
+      content
       author {
         id
         email
@@ -26,13 +28,17 @@ const GET_FEED_QUERY = gql`
 `;
 
 export function useGetFeedQuery(
-  queryOptions?: GetFeedQueryOptions & QueryHookOptions,
+  queryOptions?: QueryHookOptions<GetFeedQueryOptions>,
 ) {
-  const { data, loading, error } = useQuery(GET_FEED_QUERY, queryOptions);
+  const { data, loading, error, refetch } = useQuery(
+    GET_FEED_QUERY,
+    queryOptions,
+  );
 
   return {
     feed: data?.getFeedQuery as BiznicheBlogPost[],
     loading,
     error,
+    refetch,
   };
 }
