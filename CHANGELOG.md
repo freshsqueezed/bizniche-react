@@ -1,5 +1,11 @@
 # @bizniche/react
 
+## 0.3.3
+
+### Patch Changes
+
+- [#20](https://github.com/freshsqueezed/bizniche-react/pull/20) [`eb54178`](https://github.com/freshsqueezed/bizniche-react/commit/eb54178e315835fe64baccdef7c5aeca9d2eda2b) Thanks [@matthew-gordon](https://github.com/matthew-gordon)! - add missing field to query for single post
+
 ## 0.3.2
 
 ### Patch Changes
