@@ -1,5 +1,11 @@
 # @bizniche/react
 
+## 0.3.4
+
+### Patch Changes
+
+- [#22](https://github.com/freshsqueezed/bizniche-react/pull/22) [`3c63ab9`](https://github.com/freshsqueezed/bizniche-react/commit/3c63ab9ea534ecd50d28ae369e88ac6e793a63d5) Thanks [@matthew-gordon](https://github.com/matthew-gordon)! - Update query options to extend apollo options
+
 ## 0.3.3
 
 ### Patch Changes
