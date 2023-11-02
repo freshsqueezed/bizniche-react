@@ -1,5 +1,15 @@
 # @bizniche/react
 
+## 0.2.0
+
+### Minor Changes
+
+- [#9](https://github.com/freshsqueezed/bizniche-react/pull/9) [`24314cd`](https://github.com/freshsqueezed/bizniche-react/commit/24314cd775cf0c4771dde847233322a2f9b7e39e) Thanks [@matthew-gordon](https://github.com/matthew-gordon)! - Removed the getPostsQuery hook to implement useGetFeedQuery
+
+### Patch Changes
+
+- [#9](https://github.com/freshsqueezed/bizniche-react/pull/9) [`24314cd`](https://github.com/freshsqueezed/bizniche-react/commit/24314cd775cf0c4771dde847233322a2f9b7e39e) Thanks [@matthew-gordon](https://github.com/matthew-gordon)! - Update feed queries, add type definitions for export"
+
 ## 0.1.0
 
 ### Minor Changes
