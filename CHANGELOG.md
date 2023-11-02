@@ -1,5 +1,11 @@
 # @bizniche/react
 
+## 0.3.1
+
+### Patch Changes
+
+- [#16](https://github.com/freshsqueezed/bizniche-react/pull/16) [`21a4fde`](https://github.com/freshsqueezed/bizniche-react/commit/21a4fded5275f14978c3d7000b1744553d61da24) Thanks [@matthew-gordon](https://github.com/matthew-gordon)! - Remove unecessary field
+
 ## 0.3.0
 
 ### Minor Changes
