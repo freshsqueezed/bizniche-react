@@ -20,6 +20,6 @@ export default function configureClient({
 
   return new ApolloClient<NormalizedCacheObject>({
     link,
-    cache: new InMemoryCache({}),
+    cache: new InMemoryCache(),
   });
 }

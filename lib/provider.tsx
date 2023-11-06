@@ -4,7 +4,6 @@ import configureClient from './client';
 
 interface BiznicheProviderProps extends PropsWithChildren {
   apiKey: string;
-  config?: any;
 }
 
 export const BiznicheProvider = ({

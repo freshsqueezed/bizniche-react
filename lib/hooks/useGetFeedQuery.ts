@@ -30,7 +30,7 @@ const GET_FEED_QUERY = gql`
 export function useGetFeedQuery(
   queryOptions?: QueryHookOptions<GetFeedQueryOptions>,
 ) {
-  const { data, loading, error, refetch } = useQuery(
+  const { data, loading, error, fetchMore } = useQuery(
     GET_FEED_QUERY,
     queryOptions,
   );
@@ -39,6 +39,6 @@ export function useGetFeedQuery(
     feed: data?.getFeedQuery as BiznicheBlogPost[],
     loading,
     error,
-    refetch,
+    fetchMore,
   };
 }
