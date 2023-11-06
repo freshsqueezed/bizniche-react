@@ -1,5 +1,11 @@
 # @bizniche/react
 
+## 0.3.5
+
+### Patch Changes
+
+- [#24](https://github.com/freshsqueezed/bizniche-react/pull/24) [`2f9e14e`](https://github.com/freshsqueezed/bizniche-react/commit/2f9e14eda0bedb3e1576df7afeae134b5039cd31) Thanks [@matthew-gordon](https://github.com/matthew-gordon)! - Types extended to reflect new content type for core API
+
 ## 0.3.4
 
 ### Patch Changes
