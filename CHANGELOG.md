@@ -1,5 +1,11 @@
 # @bizniche/react
 
+## 0.4.1
+
+### Patch Changes
+
+- [#27](https://github.com/freshsqueezed/bizniche-react/pull/27) [`c2a3866`](https://github.com/freshsqueezed/bizniche-react/commit/c2a38666838a41436b53e31793f3827a61bc6689) Thanks [@matthew-gordon](https://github.com/matthew-gordon)! - Small changes to kick off build and publish
+
 ## 0.4.0
 
 ### Minor Changes
