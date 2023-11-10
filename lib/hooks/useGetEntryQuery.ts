@@ -8,7 +8,7 @@ interface GetEntryQueryOptions {
 }
 
 const GET_ENTRY_QUERY = gql`
-  query GetPostQuery($input: GetEntryQueryInput!) {
+  query GetEntryQuery($input: GetEntryQueryInput!) {
     getEntryQuery(input: $input) {
       id
       title
@@ -32,7 +32,7 @@ export function useGetEntryQuery(
   const { data, loading, error } = useQuery(GET_ENTRY_QUERY, queryOptions);
 
   return {
-    post: data?.getEntryQuery as BiznicheEntry,
+    entry: data?.getEntryQuery as BiznicheEntry,
     loading,
     error,
   };

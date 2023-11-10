@@ -1,5 +1,5 @@
 import { QueryHookOptions, gql, useQuery } from '@apollo/client';
-import { BiznicheBlogPost } from '../types';
+import { BiznicheEntry } from '../types';
 
 interface GetFeedQueryOptions {
   input: {
@@ -9,13 +9,16 @@ interface GetFeedQueryOptions {
 }
 
 const GET_FEED_QUERY = gql`
-  query GetFeedQuery($input: GetFeedQueryInput) {
-    getFeedQuery(input: $input) {
+  query GetEntryFeedQuery($input: GetEntryFeedQueryInput) {
+    getEntryFeedQuery(input: $input) {
       id
       title
       slug
       description
       content
+      is_draft
+      is_archived
+      is_deleted
       author {
         id
         email
@@ -36,7 +39,7 @@ export function useGetFeedQuery(
   );
 
   return {
-    feed: data?.getFeedQuery as BiznicheBlogPost[],
+    feed: data?.getFeedQuery as BiznicheEntry[],
     loading,
     error,
     fetchMore,
