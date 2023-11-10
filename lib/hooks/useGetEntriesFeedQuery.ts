@@ -39,7 +39,7 @@ export function useGetFeedQuery(
   );
 
   return {
-    feed: data?.getFeedQuery as BiznicheEntry[],
+    feed: data?.getEntryFeedQuery as BiznicheEntry[],
     loading,
     error,
     fetchMore,
