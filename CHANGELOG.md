@@ -1,5 +1,11 @@
 # @bizniche/react
 
+## 0.4.0
+
+### Minor Changes
+
+- [`e67edcd`](https://github.com/freshsqueezed/bizniche-react/commit/e67edcd98edd3e5bb2eb73e601f7f2a6ad952235) Thanks [@matthew-gordon](https://github.com/matthew-gordon)! - Update entity names, introducing breaking changes to existing test queries
+
 ## 0.3.5
 
 ### Patch Changes
