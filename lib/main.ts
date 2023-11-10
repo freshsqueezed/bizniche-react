@@ -1,4 +1,4 @@
 export { BiznicheProvider } from './provider';
-export * from './hooks/useGetFeedQuery';
-export * from './hooks/useGetPostQuery';
+export * from './hooks/useGetEntriesFeedQuery';
+export * from './hooks/useGetEntryQuery';
 export * from './types';
