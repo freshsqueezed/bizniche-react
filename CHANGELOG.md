@@ -1,5 +1,13 @@
 # @bizniche/react
 
+## 0.4.3
+
+### Patch Changes
+
+- [#31](https://github.com/freshsqueezed/bizniche-react/pull/31) [`d103382`](https://github.com/freshsqueezed/bizniche-react/commit/d103382a625801bbc2975632058478b46aa77620) Thanks [@matthew-gordon](https://github.com/matthew-gordon)! - Update incorrect feed mapping
+
+- [#31](https://github.com/freshsqueezed/bizniche-react/pull/31) [`d103382`](https://github.com/freshsqueezed/bizniche-react/commit/d103382a625801bbc2975632058478b46aa77620) Thanks [@matthew-gordon](https://github.com/matthew-gordon)! - Fix broken type references
+
 ## 0.4.2
 
 ### Patch Changes
