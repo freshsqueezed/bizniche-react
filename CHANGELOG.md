@@ -1,5 +1,11 @@
 # @bizniche/react
 
+## 0.4.2
+
+### Patch Changes
+
+- [#29](https://github.com/freshsqueezed/bizniche-react/pull/29) [`987cc65`](https://github.com/freshsqueezed/bizniche-react/commit/987cc65646b0fa79da9a6dc17e14d0e11aa916e9) Thanks [@matthew-gordon](https://github.com/matthew-gordon)! - Fix broken type references
+
 ## 0.4.1
 
 ### Patch Changes
