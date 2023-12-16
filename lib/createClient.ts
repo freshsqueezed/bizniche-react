@@ -19,11 +19,13 @@ export class BiznicheClient {
   async find<T>(
     collection: string,
     where: Record<string, any>,
-    fields: string[],
+    fields: Array<keyof T>,
   ): Promise<T> {
+    const formattedCollection = collection.charAt(0).toUpperCase().slice(1);
+
     const query = `
-      query Find${collection.toUpperCase()}($where: ${collection.toUpperCase()}WhereInput!) {
-        find${collection.toUpperCase()}(where: $where) {
+      query Find${formattedCollection}WhereInput!) {
+        find${formattedCollection}(where: $where) {
           ${fields.join('\n')}
         }
       }
