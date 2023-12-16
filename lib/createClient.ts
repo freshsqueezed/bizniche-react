@@ -19,7 +19,7 @@ export class BiznicheClient {
   async find<T>(
     collection: string,
     where: Record<string, any>,
-    fields: Array<keyof T>,
+    fields: Array<keyof T | string>,
   ): Promise<T> {
     const formattedCollection = collection.charAt(0).toUpperCase().slice(1);
 
