@@ -1,11 +1,11 @@
-import { useGetFeedQuery } from './useGetEntriesFeedQuery';
-import { useGetEntryQuery } from './useGetEntryQuery';
+import { BlogDatasource } from '../datasources/BlogDatasource';
 
-export function useApp() {
+interface useAppHookProps {
+  blog?: boolean;
+}
+
+export function useApp({ blog }: useAppHookProps) {
   return {
-    blog: {
-      entryFeed: useGetFeedQuery,
-      entry: useGetEntryQuery,
-    },
+    blog: blog ? new BlogDatasource() : null,
   };
 }
