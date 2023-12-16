@@ -1,5 +1,15 @@
 # @bizniche/react
 
+## 0.6.0
+
+### Minor Changes
+
+- [#35](https://github.com/freshsqueezed/bizniche-react/pull/35) [`a4bb7c76f9347e4a99f14f8a906a06b6d61a6058`](https://github.com/freshsqueezed/bizniche-react/commit/a4bb7c76f9347e4a99f14f8a906a06b6d61a6058) Thanks [@matthew-gordon](https://github.com/matthew-gordon)! - Add experimental client
+
+### Patch Changes
+
+- [#35](https://github.com/freshsqueezed/bizniche-react/pull/35) [`a4bb7c76f9347e4a99f14f8a906a06b6d61a6058`](https://github.com/freshsqueezed/bizniche-react/commit/a4bb7c76f9347e4a99f14f8a906a06b6d61a6058) Thanks [@matthew-gordon](https://github.com/matthew-gordon)! - update signature
+
 ## 0.5.0
 
 ### Minor Changes
